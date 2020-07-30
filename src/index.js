@@ -10,10 +10,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.querySelector('[type=submit]').addEventListener("click", function(e) {
-    e.preventDefault();
-
     li = document.createElement('li')
     document.querySelector('#tasks').appendChild(li).innerHTML = strArray
+
+
+    e.preventDefault();
+
 
   }, false);
 
