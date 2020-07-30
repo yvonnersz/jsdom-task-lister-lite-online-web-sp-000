@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(strArray);
 
     li = document.createElement('li')
-    document.querySelector('#tasks').appendChild(li).innerHTML = strArray.last
+    document.querySelector('#tasks').appendChild(li).innerHTML = strArray
   });
 
   document.querySelector('[type=submit]').addEventListener("click", function(e) {
