@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let taskArray = [];
 
-  document.body.querySelector('[type=text]').addEventListener("keydown", function(e) {
+  document.body.querySelector('input').addEventListener("keydown", function(e) {
 
     console.log(e.key);
     taskArray.push(e.key);
