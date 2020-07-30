@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.querySelector('[type=text]').addEventListener("keydown", function(e) {
     if (e === "Backspace") {
       return false;
+    } else {
+      console.log(e.key);
     }
   });
 });
