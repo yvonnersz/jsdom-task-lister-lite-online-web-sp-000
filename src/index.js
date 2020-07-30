@@ -9,6 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     li = document.createElement('li')
     document.querySelector('#tasks').appendChild(li).innerHTML = e.key
+
+    document.querySelector('[type=submit]').addEventListener("click", function(e) {
+      e.preventDefault();
+    });
+
   });
 
 
