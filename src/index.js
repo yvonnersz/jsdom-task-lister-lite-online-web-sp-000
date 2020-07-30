@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector('[type=submit]').addEventListener("click", function(e) {
       e.preventDefault();
     }, false);
-    
+
     console.log(e.key);
     taskArray.push(e.key);
     console.log(taskArray);
