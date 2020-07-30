@@ -9,8 +9,4 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
     }, false);
 
-
-  });
-
-
 });
