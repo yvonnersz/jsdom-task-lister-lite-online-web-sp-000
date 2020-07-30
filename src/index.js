@@ -4,6 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
   var x = document.getElementById("new-task-description").form.id;
   console.log(x)
 
+    document.querySelector('[type=submit]').addEventListener("click", function(e) {
+      e.preventDefault();
+    }, false);
+
+
 
 
 
