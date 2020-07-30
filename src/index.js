@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector('[type=submit]').addEventListener("click", function(e) {
     e.preventDefault();
 
-    
+
   }, false);
 
 });
