@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     li = document.createElement('li')
     document.querySelector('#tasks').appendChild(li).innerHTML = strArray
-    
+
   }, false);
 
 });
