@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.body.querySelector('input').addEventListener("keydown", function(e) {
 
-    console.log(e.key);
+    console.log(input);
     taskArray.push(e.key);
     console.log(taskArray);
 
