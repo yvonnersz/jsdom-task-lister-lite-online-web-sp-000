@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(taskArray);
 
     strArray = taskArray.join("");
-    console.log(strArray);
+    console.log("THIS WILL BE THE CONKOINED");
 
     li = document.createElement('li')
     document.querySelector('#tasks').appendChild(li).innerHTML = strArray
