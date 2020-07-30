@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     taskArray.push(e.key);
     console.log(taskArray);
 
-    strArray = taskArray.join("");
+    let strArray = taskArray.join("");
     console.log("strArray");
 
     document.querySelector('[type=submit]').addEventListener("click", function(e) {
