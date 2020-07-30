@@ -3,7 +3,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelector('[type=submit]').addEventListener("click", function(e) {
     e.preventDefault();
+
+
+
+
+
+    
   }, false);
+  });
 
     document.body.querySelector('[type=text]').addEventListener("keydown", function(e) {
       let taskArray = [];
@@ -22,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-});
+
 
 
 
