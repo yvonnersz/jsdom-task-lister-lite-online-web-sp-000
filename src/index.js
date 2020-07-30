@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     taskArray.push(e.key);
     console.log(taskArray);
 
+    strArray = taskArray.join("");
+    console.log(strArray);
+
     li = document.createElement('li')
     document.querySelector('#tasks').appendChild(li).innerHTML = e.key
   });
