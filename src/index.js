@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   let taskArray = [];
 
   document.body.querySelector('[type=text]').addEventListener("keydown", function(e) {
+    document.querySelector('[type=submit]').addEventListener("click", function(e) {
+      e.preventDefault();
+    }, false);
+    
     console.log(e.key);
     taskArray.push(e.key);
     console.log(taskArray);
@@ -15,8 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector('#tasks').appendChild(li).innerHTML = strArray
   });
 
-  document.querySelector('[type=submit]').addEventListener("click", function(e) {
-    e.preventDefault();
-  }, false);
+
 
 });
