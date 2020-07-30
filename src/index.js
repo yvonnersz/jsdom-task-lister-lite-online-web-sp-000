@@ -9,9 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     taskArray.push(e.key);
     console.log(taskArray);
 
-    let newTask = [e.key];
-    console.log(newTask)
-
     let strArray = taskArray.join("");
     console.log("strArray");
 
