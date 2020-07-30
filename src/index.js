@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
-  document.body.addEventListener("keydown", function(e) {
+  document.body.querySelector('[type=text]').addEventListener("keydown", function(e) {
     console.log(e.key);
   });
 });
