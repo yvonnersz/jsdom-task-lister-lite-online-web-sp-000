@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   li = document.createElement('li')
-  document.querySelector('#tasks').appendChild(li).innerHTML = taskArray
+  document.querySelector('#tasks').appendChild(li).innerHTML = taskArray.join("")
 
 });
