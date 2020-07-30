@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e === "Backspace") {
       return false;
     } else {
-      console.log(e.key);
+      return console.log(e.key);
     }
   });
 });
