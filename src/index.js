@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelector('[type=submit]').addEventListener("click", function(e) {
       li = document.createElement('li')
-      document.querySelector('#tasks').appendChild(li).innerHTML = strArray[strArray.length-1]
+      document.querySelector('#tasks').appendChild(li).innerHTML = strArray
 
-      console.log(strArray)
+      console.log(strArray[strArray.length-1])
       e.preventDefault();
     }, false);
 
