@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   li = document.createElement('li')
-  document.querySelector('#tasks').appendChild(li).innerHTML = console.log(e.key);
-
+  document.querySelector('#tasks').appendChild(li).innerHTML = e.key
 
 });
