@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
-  var x = document.querySelector("input#new-task-description").form.id;
+  var x = document.querySelector("input#new-task-description");
   console.log(x)
 
     document.querySelector('[type=submit]').addEventListener("click", function(e) {
