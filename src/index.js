@@ -11,12 +11,13 @@ document.addEventListener("DOMContentLoaded", () => {
     strArray = taskArray.join("");
     console.log("strArray");
 
+    document.querySelector('[type=submit]').addEventListener("click", function(e) {
+      e.preventDefault();
+    }, false);
+
     li = document.createElement('li')
     document.querySelector('#tasks').appendChild(li).innerHTML = strArray
   });
 
-  document.querySelector('[type=submit]').addEventListener("click", function(e) {
-    e.preventDefault();
-  }, false);
 
 });
