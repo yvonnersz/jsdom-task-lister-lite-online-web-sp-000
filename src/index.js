@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
-  document.querySelector('[type=text]').innerHTML
+  task = document.querySelector('[type=text]').innerHTML
+  console.log(task)
 
     document.querySelector('[type=submit]').addEventListener("click", function(e) {
       e.preventDefault();
