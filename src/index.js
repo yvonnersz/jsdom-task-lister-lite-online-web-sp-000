@@ -15,12 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector('#tasks').appendChild(li).innerHTML = strArray
   });
 
-  function submit {
-    document.querySelector('[type=submit]').addEventListener("click", function(e) {
-      e.preventDefault();
-    }, false);
-  }
-
-  submit
+  document.querySelector('[type=submit]').addEventListener("click", function(e) {
+    e.preventDefault();
+  }, false);
 
 });
