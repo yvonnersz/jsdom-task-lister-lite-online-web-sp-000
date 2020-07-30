@@ -8,4 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     taskArray.push(e.key);
   });
 
+  li = document.createElement('li')
+  document.querySelector('#tasks').appendChild(li)
+
 });
