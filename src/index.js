@@ -6,13 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   document.body.querySelector('[type=text]').addEventListener("keydown", function(e) {
-    console.log(e.key);
     taskArray.push(e.key);
-    console.log(taskArray);
-
-    console.log(strArray);
-
-
   });
 
   document.querySelector('[type=submit]').addEventListener("click", function(e) {
