@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       li = document.createElement('li')
       document.querySelector('#tasks').appendChild(li).innerHTML = strArray
 
-      console.log(strArray)
+      console.log(strArray[strArray.length])
       e.preventDefault();
     }, false);
 
