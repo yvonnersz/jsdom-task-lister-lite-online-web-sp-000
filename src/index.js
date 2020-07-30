@@ -2,14 +2,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
   let taskArray = [];
-  let strArray = taskArray.join("");
-
 
   document.body.querySelector('[type=text]').addEventListener("keydown", function(e) {
     console.log(e.key);
     taskArray.push(e.key);
     console.log(taskArray);
 
+    strArray = taskArray.join("");
     console.log(strArray);
 
     li = document.createElement('li')
